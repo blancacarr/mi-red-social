@@ -1,0 +1,59 @@
+[debug] [2019-04-02T00:14:12.406Z] ----------------------------------------------------------------------
+[debug] [2019-04-02T00:14:12.412Z] Command:       /usr/bin/node /usr/bin/firebase serve
+[debug] [2019-04-02T00:14:12.412Z] CLI Version:   6.5.0
+[debug] [2019-04-02T00:14:12.412Z] Platform:      linux
+[debug] [2019-04-02T00:14:12.413Z] Node Version:  v11.10.0
+[debug] [2019-04-02T00:14:12.413Z] Time:          Mon Apr 01 2019 21:14:12 GMT-0300 (GMT-03:00)
+[debug] [2019-04-02T00:14:12.413Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-02T00:14:12.454Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-02T00:14:12.454Z] > authorizing via signed-in user
+[debug] [2019-04-02T00:14:12.454Z] [iam] checking project allergy-bites for permissions ["firebase.projects.get"]
+[debug] [2019-04-02T00:14:12.456Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-04-02T00:14:12.457Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-04-02T00:14:12.629Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-02T00:14:12.785Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/allergy-bites:testIamPermissions  
+
+[debug] [2019-04-02T00:14:14.198Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-02T00:14:14.202Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/allergy-bites  
+ 
+[debug] [2019-04-02T00:14:15.280Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/laboratoriad308/Documentos/laborataoria2/allergyBites/SCL008-Social-Network'...
+[info] 
+[debug] [2019-04-02T00:14:15.286Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/665368959324/clients/_:getWebAppConfig  
+ 
+[debug] [2019-04-02T00:14:16.755Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: src
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-04-02T01:14:35.501Z] ----------------------------------------------------------------------
+[debug] [2019-04-02T01:14:35.503Z] Command:       /usr/bin/node /usr/bin/firebase serve
+[debug] [2019-04-02T01:14:35.503Z] CLI Version:   6.5.0
+[debug] [2019-04-02T01:14:35.503Z] Platform:      linux
+[debug] [2019-04-02T01:14:35.503Z] Node Version:  v11.10.0
+[debug] [2019-04-02T01:14:35.504Z] Time:          Mon Apr 01 2019 22:14:35 GMT-0300 (GMT-03:00)
+[debug] [2019-04-02T01:14:35.504Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-02T01:14:35.510Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-02T01:14:35.510Z] > authorizing via signed-in user
+[debug] [2019-04-02T01:14:35.510Z] [iam] checking project allergy-bites for permissions ["firebase.projects.get"]
+[debug] [2019-04-02T01:14:35.511Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-04-02T01:14:35.512Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-04-02T01:14:35.676Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-02T01:14:36.039Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/allergy-bites:testIamPermissions  
+
+[debug] [2019-04-02T01:14:37.104Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-02T01:14:37.108Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/allergy-bites  
+ 
+[debug] [2019-04-02T01:14:38.196Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/laboratoriad308/Documentos/laborataoria2/allergyBites/SCL008-Social-Network'...
+[info] 
+[debug] [2019-04-02T01:14:38.201Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/665368959324/clients/_:getWebAppConfig  
+ 
+[debug] [2019-04-02T01:14:39.616Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[info] i  hosting: Serving hosting files from: src
+[info] ✔  hosting: Local server: http://localhost:5005

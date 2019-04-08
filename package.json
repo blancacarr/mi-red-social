@@ -1,0 +1,39 @@
+{
+  "name": "prueba-redsocial",
+  "version": "0.0.1",
+  "description": "proyecto",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "jest --coverage",
+    "eslint": "eslint --ext .js src/ test/",
+    "htmlhint":"htmlhint src/*.html",
+    "pretest": "npm run eslint && npm run htmlhint",
+    "deploy": "gh-pages -d src/"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blancacarr/mi-red-social.git"
+  },
+  "keywords": [
+    "firebase",
+    "redSocial"
+  ],
+  "author": " blanca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blancacarr/mi-red-social"
+  },
+  "homepage": "https://github.com/blancacarr/mi-red-social.git",
+  "dependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.4.0",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^24.5.0",
+    "eslint": "^5.15.3",
+    "eslint-plugin-jest": "^22.4.1",
+    "express": "^4.16.4",
+    "gh-pages": "^2.0.1",
+    "htmlhint": "^0.11.0",
+    "jest": "^24.5.0"
+  }
+}
